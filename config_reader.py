@@ -29,4 +29,4 @@ class NoveConfiguration:
     @property
     def postgres_port(self):
         return self.__configuration_parse.get(section='postgres', option='port')
-        
+    
